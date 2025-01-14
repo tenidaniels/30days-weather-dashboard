@@ -22,7 +22,7 @@ Welcome to the **Weather Data Collection System**! This project is part of the *
 
 ## 📂 Project Structure  
 
-```plaintext```
+```plaintext
 weather-dashboard/
     src/
         __init__.py
