@@ -22,7 +22,7 @@ Welcome to the **Weather Data Collection System**! This project is part of the *
 
 ## 📂 Project Structure  
 
-```plaintext
+  ```plaintext
 weather-dashboard/
     src/
         __init__.py
@@ -32,8 +32,10 @@ weather-dashboard/
     .env
     .gitignore
     requirements.txt
+```
 
-## Setup Instructions
+## 🚀 Getting Started
+Follow these steps to set up and run the project locally:
 
 1. **Clone the repository:**
     ```bash
@@ -67,16 +69,16 @@ weather-dashboard/
 
     The script will fetch the weather data for predefined cities, process it, and save it to your AWS S3 bucket.
 
-### Sample Output
-
+### 📊 Sample Output
+```
 Fetching weather for Philadelphia... Temperature: 28.87°F Feels like: 16.75°F Humidity: 44% Conditions: scattered clouds Successfully saved data for Philadelphia to S3
 
 Fetching weather for Seattle... Temperature: 48.97°F Feels like: 46.58°F Humidity: 84% Conditions: clear sky Successfully saved data for Seattle to S3
 
 Fetching weather for New York... Temperature: 27.03°F Feels like: 14.43°F Humidity: 42% Conditions: few clouds Successfully saved data for New York to S3
+```
 
-
-## What I Learned
+## 🧠 What I’ve Learned
 
 During this project, I learned a lot about:
 
