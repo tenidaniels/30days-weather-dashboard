@@ -1,4 +1,4 @@
-# Weather Data Collection System - 30 Days DevOps Challenge(tenidaniels)
+# Weather Data Collection System(Day 1) - 30 Days DevOps Challenge(tenidaniels)
 
 This project is part of the **30 Days DevOps Challenge**, where we aim to build a weather data collection system that demonstrates core DevOps principles by combining:
 
