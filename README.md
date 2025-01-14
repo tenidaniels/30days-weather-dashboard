@@ -1,37 +1,37 @@
 # Weather Data Collection System(Day 1) - 30 Days DevOps Challenge(tenidaniels)
 
-This project is part of the **30 Days DevOps Challenge**, where we aim to build a weather data collection system that demonstrates core DevOps principles by combining:
+Welcome to the **Weather Data Collection System**! This project is part of the **30 Days DevOps Challenge**, where the goal is to build a weather data collection system that showcases core DevOps principles.  
 
-- **External API Integration**: OpenWeather API
-- **Cloud Storage**: AWS S3
-- **Infrastructure as Code**
-- **Version Control**: Git
-- **Python Development**
-- **Error Handling**
-- **Environment Management**
+## 🚀 Features  
 
-## Features
+- Fetches **real-time weather data** for multiple cities.  
+- Displays key details: **temperature (°F)**, **humidity**, and **weather conditions**.  
+- Automatically stores weather data in **AWS S3** for secure storage.  
+- Supports tracking **multiple cities** simultaneously.  
+- Timestamps all weather data for historical tracking.  
 
-- Fetches real-time weather data for multiple cities.
-- Displays temperature (°F), humidity, and weather conditions.
-- Automatically stores weather data in AWS S3.
-- Supports multiple cities tracking.
-- Timestamps all data for historical tracking.
+## 🛠️ Tech Stack  
 
-## Technical Architecture
+- **Language**: Python 3.x  
+- **Cloud Provider**: AWS (S3)  
+- **External API**: OpenWeather API  
+- **Dependencies**:  
+  - `boto3` (AWS SDK)  
+  - `python-dotenv` (Environment management)  
+  - `requests` (HTTP requests)  
 
-- **Language**: Python 3.x
-- **Cloud Provider**: AWS (S3)
-- **External API**: OpenWeather API
-- **Dependencies**:
-  - `boto3` (AWS SDK)
-  - `python-dotenv`
-  - `requests`
+## 📂 Project Structure  
 
-## Project Structure
-
-weather-dashboard/ src/ init.py weather_dashboard.py tests/ data/ .env .gitignore requirements.txt
-
+```plaintext```
+weather-dashboard/
+    src/
+        __init__.py
+        weather_dashboard.py
+    tests/
+    data/
+    .env
+    .gitignore
+    requirements.txt
 
 ## Setup Instructions
 
